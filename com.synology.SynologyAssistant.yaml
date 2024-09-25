@@ -39,9 +39,9 @@ modules:
       - type: extra-data
         filename: synology-assistant.deb
         only-arches: [x86_64]
-        url: https://global.synologydownload.com/download/Utility/Assistant/7.0.4-50051/Ubuntu/x86_64/synology-assistant_7.0.4-50051_amd64.deb
-        sha256: 9c764d274800a6571bdeea86f8c65628880efc22ef72386b5130a125d47d1872
-        size: 11134028
+        url: https://global.synologydownload.com/download/Utility/Assistant/7.0.5-50070/Ubuntu/x86_64/synology-assistant_7.0.5-50070_amd64.deb
+        sha256: 48e65e53a3b7f8e7ed7816c353f2b0ba3b2e7583186608c57342fe1264286361
+        size: 11156990
       - type: script
         dest-filename: synology-assistant.sh
         commands:
