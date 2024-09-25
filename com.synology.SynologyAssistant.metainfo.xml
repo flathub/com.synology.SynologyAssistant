@@ -27,7 +27,15 @@
   </screenshots>
   <launchable type="desktop-id">com.synology.SynologyAssistant.desktop</launchable>
   <releases>
-    <release version="7.0.2" release="50046" date="2021-12-14"/>
+    <release version="7.0.2" release="50046" date="2021-12-14">
+      <url type="details">https://www.synology.com/en-eu/releaseNote/Assistant</url>
+      <description>
+        <p>Fixed Issues</p>
+          <ul>
+            <li>Enhanced the device searching mechanism.</li>
+          </ul>
+      </description>
+    </release>
   </releases>
   <content_rating type="oars-1.0" />
 </component>
