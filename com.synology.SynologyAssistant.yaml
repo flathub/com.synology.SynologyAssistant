@@ -20,6 +20,8 @@ modules:
       - install -Dm644 DSAssistant_256x256x32.png /app/share/icons/hicolor/256x256/apps/com.synology.SynologyAssistant.png
       - install -D apply_extra -t /app/bin
       - cp /usr/bin/ar /app/bin
+      # Copy the libbfd*.so that corresponds to the current architecture
+      - install -Dm755 `ldd /usr/bin/ar | grep libbfd | sed 's/\(.*\) => \(.*\) (.*)/\2/'` -t /app/lib
     sources:
       - type: script
         dest-filename: apply_extra
