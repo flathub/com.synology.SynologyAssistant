@@ -8,8 +8,8 @@
   <url type="homepage">https://www.synology.com</url>
   <summary>Tool for managing Synology NAS in the local network</summary>
   <description>
+    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by Synology Inc.**</p>
     <p>Synology Assistant is an easy-to-use tool for managing Synology NAS in the local area network (LAN), especially when you have multiple machines working within the LAN. With Synology Assistant, you can share printers, set up WOL, and configure network drives.</p>
-    <p>NOTE: This wrapper is not verified by, affiliated with, or supported by Synology Inc.</p>
   </description>
   <screenshots>
     <screenshot type="default">
