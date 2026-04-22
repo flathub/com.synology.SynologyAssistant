@@ -29,7 +29,7 @@ modules:
           - ar x synology-assistant.deb
           - tar xf data.tar.gz
           - mv opt/Synology/SynologyAssistant SynologyAssistant
-          - rm -r synology-assistant.deb control.tar.gz data.tar.gz debian-binary usr
+          - rm -r synology-assistant.deb control.tar.gz data.tar.gz debian-binary usr _gpgbuilder opt/
       - type: file
         path: com.synology.SynologyAssistant.desktop
       - type: file
